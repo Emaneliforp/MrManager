@@ -2,9 +2,9 @@
   "name": "mrmanager",
   "version": "1.0.0",
   "description": "discord task manager",
-  "main": "index.js",
+  "main": "discord/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node discord/index.js"
   },
   "repository": {
     "type": "git",
