@@ -6,7 +6,7 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on("message", async msg => {
+client.on("message", msg => {
   if(msg.content == "test"){
     msg.channel.send("testing");
   }
