@@ -2,9 +2,9 @@
   "name": "mrmanager",
   "version": "1.0.0",
   "description": "discord task manager",
-  "main": "discord/index.js",
+  "main": "serverInit.js",
   "scripts": {
-    "start": "node discord/index.js"
+    "start": "node refreshChart.js & node markTask.js & node removeTask.js & node addTask.js & node taskList.js & node editTask.js & node help.js & node task.js & node adminAdd.js & node serverInit.js & node invite.js"
   },
   "repository": {
     "type": "git",
