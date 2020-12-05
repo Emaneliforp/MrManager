@@ -13,11 +13,6 @@ var app = firebase.initializeApp({
 
 const DB = firebase.database();
 
-let getAllServers = require("./firebase.js").getAllServers;
-let setAllServers = require("./firebase.js").setAllServers;
-let setServer = require("./firebase.js").setServer;
-let getTask = require("./firebase.js").getTask;
-let setTask = require("./firebase.js").setTask;
 
 let allServers = {};
 DB.ref("allServers").once("value").then(snapshot => {
