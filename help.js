@@ -19,7 +19,7 @@ client.on("message", msg => {
         { name: '+addTask', value: "Assign task with deadline and description to specific user or role.\n`+addTask [target] [duration] [desc]`"},
         { name: '+taskList', value: "Show all of your or a role's tasks with completion status.\n`+taskList [target]`"},
         { name: '+editTask', value: "Change duration or description of a task.\n`+edittask [taskId] [duration] [desc]`"},
-        { name: '+markTask', value: "Update progress status of the task. (not started, in progress, finished)\n`+edittask [target] [taskId] [status]`"},
+        { name: '+markTask', value: "Update progress status of the task. (not started, in progress, finished)\n`+markTask [taskId] [status]`"},
         { name: '+removeTask', value: "Remove task.\n`+removetask [taskId]`"},
         { name: '+task', value: "Display duration, description and progress of a task.\n`+task [taskId]`"},
         { name: '+refresh', value: "Refresh the task chart channel.\n`+refresh`"},
