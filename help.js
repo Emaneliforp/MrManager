@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log("help!");
-  client.user.setActivity("MrManager"); 
+  client.user.setActivity("MrManager|+help"); 
 })
 client.on("message", msg => {
   if(msg.content.toLowerCase().startsWith("+help")){
