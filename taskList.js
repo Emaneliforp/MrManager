@@ -15,9 +15,6 @@ const DB = firebase.database();
 
 var taskId = 1;
 
-let getAllServers = require("./firebase.js").getAllServers;
-let setAllServers = require("./firebase.js").setAllServers;
-let setServer = require("./firebase.js").setServer;
 
 let server = {};
 

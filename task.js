@@ -13,8 +13,6 @@ var app = firebase.initializeApp({
 
 const DB = firebase.database();
 
-let getAllServers = require("./firebase.js").getAllServers;
-let getTask = require("./firebase.js").getTask;
 
 let allServers = {};
 

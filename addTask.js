@@ -13,10 +13,6 @@ var app = firebase.initializeApp({
 
 const DB = firebase.database();
 
-let getAllServers = require("./firebase.js").getAllServers;
-let setAllServers = require("./firebase.js").setAllServers;
-let setServer = require("./firebase.js").setServer;
-
 let allServers = {};
 
 client.on("ready", () => {console.log("+addtask loaded successfully")})
